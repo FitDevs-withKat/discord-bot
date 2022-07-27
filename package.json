@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "#FitDev's Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FitDevs-withKat/discord-bot.git"
+  },
+  "keywords": [
+    "fitdevs",
+    "discord",
+    "bot"
+  ],
+  "author": "FitDevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FitDevs-withKat/discord-bot/issues"
+  },
+  "homepage": "https://github.com/FitDevs-withKat/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
