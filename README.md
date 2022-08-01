@@ -8,7 +8,7 @@ This Discord bot acts as a leadership board / point tracking system to promote f
 
 ## Getting Started
 
-For additional information on how to set up this project, view our [setup guide](./SETUP.MD).
+For additional information on how to set up this project, view our [setup guide](SETUP.md).
 
 ## Contributions
 
