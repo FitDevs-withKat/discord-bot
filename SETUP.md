@@ -9,8 +9,13 @@ On the developer portal dashboard, you will want to select your new application 
 
 Create a `.env` file and fill out the following value(s). If you do not know your bot token, you can refresh it on the application's main page.
 
+Setting ENV to `production` value will register commands globally.
+
 ```
+ENV=
 BOT_TOKEN=
+CLIENT_ID=
+GUILD_ID=
 ```
 
 ## Inviting 
@@ -27,3 +32,5 @@ You should see your bot join the selected discord server.
 ## Testing the Bot
 
 Running the startup command `node index.js` will display a message in terminal. If you look at the users list of the server the bot was invite to, the bot will be online.
+
+The bot utilizes slash commands in it's current state. Typing `/emi` or `/lookup` will generate a response from the bot.

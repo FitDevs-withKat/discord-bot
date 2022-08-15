@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/FitDevs-withKat/discord-bot#readme",
   "dependencies": {
+    "discord-api-types": "^0.37.2",
     "discord.js": "^14.0.3",
     "dotenv": "^16.0.1"
   },
