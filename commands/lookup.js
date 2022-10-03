@@ -4,7 +4,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName("lookup")
         .setDescription("Lookup a user"),
-    async execute(interation) {
-        interation.reply("This is a new user lookup command.");
+    async execute(interaction) {
+        interaction.reply("This is a new user lookup command.");
     }
 }
