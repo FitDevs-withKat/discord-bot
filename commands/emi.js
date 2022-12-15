@@ -3,8 +3,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("emi")
-        .setDescription("Emi command"),
+        .setDescription("Displays the definition of EMI."),
     async execute(interaction) {
-        interaction.reply("This is a new EMI command.");
+        interaction.reply("EMI means to explore, maintain, and inspire.");
     }
 }
