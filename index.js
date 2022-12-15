@@ -7,6 +7,10 @@ const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const dotenv = require('dotenv');
 dotenv.config({path: './.env'});
 
+// connect to db
+const connectDB = require('./db-connection');
+connectDB();
+
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
