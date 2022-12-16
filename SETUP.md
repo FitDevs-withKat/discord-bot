@@ -16,6 +16,7 @@ ENV=
 BOT_TOKEN=
 CLIENT_ID=
 GUILD_ID=
+MONGO_URI=
 ```
 
 ## Inviting 
@@ -29,8 +30,12 @@ On the application's main page, you will want to navigation to Settings -> OAuth
 
 You should see your bot join the selected discord server.
 
+## MongoDB Connection
+
+You will need a MongoDB URI connection string to a database. This can be done by installing [MongoDB Compass](https://www.mongodb.com/products/compass) or by using [MongoDB Atlas](https://www.mongodb.com/atlas)
+
 ## Testing the Bot
 
 Running the startup command `node index.js` will display a message in terminal. If you look at the users list of the server the bot was invite to, the bot will be online.
 
-The bot utilizes slash commands in it's current state. Typing `/emi` or `/lookup` will generate a response from the bot.
+The bot utilizes slash commands in it's current state. Typing `/emi` will generate a response from the bot.
