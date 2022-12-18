@@ -6,4 +6,4 @@ const userSchema = new mongoose.Schema({
     total: Number
 });
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("Campaign_data", userSchema, 'campaign_data');
