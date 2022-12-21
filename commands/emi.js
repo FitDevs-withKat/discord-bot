@@ -5,6 +5,6 @@ module.exports = {
         .setName("emi")
         .setDescription("Displays the definition of EMI."),
     async execute(interaction) {
-        interaction.reply("EMI means to explore, maintain, and inspire.");
+        interaction.reply("EMI means to explore, maintain, and inspire!!");
     }
 }
